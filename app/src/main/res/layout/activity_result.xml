@@ -1,0 +1,43 @@
+<!-- activity_result.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#422686">
+
+    <TextView
+        android:id="@+id/tv_puntuacionFinal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:text="Tu puntuación es: 0"
+        android:textColor="#ffffff"
+        android:textSize="34sp"/>
+
+    <TextView
+        android:id="@+id/mensaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Mensaje personalizado"
+        android:textStyle="italic"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        />
+
+    <Button
+        android:id="@+id/btn_inicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingHorizontal="40dp"
+        android:paddingVertical="25dp"
+        android:layout_marginTop="90dp"
+        />
+</LinearLayout>

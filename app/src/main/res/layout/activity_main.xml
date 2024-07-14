@@ -1,0 +1,49 @@
+<!-- activity_main.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#422686">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textStyle="bold|italic"
+        android:shadowColor="#b09ce3"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="40"
+        android:textAlignment="center"
+        android:text="Quiz de lógica para tontos"
+        android:textColor="#ffffff"
+        android:textSize="40dp"
+        android:layout_marginBottom="60dp"/>
+
+    <TextView
+        android:id="@+id/tv_ultima_puntuacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:text="Última Puntuación: 0"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btn_iniciarQuiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iniciar Quiz"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:paddingHorizontal="40dp"
+        android:paddingVertical="25dp"
+        android:layout_marginTop="90dp"
+        />
+
+</LinearLayout>
